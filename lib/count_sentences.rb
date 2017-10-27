@@ -15,11 +15,10 @@ class String
   end
 
   def count_sentences
-    puts self.split("." || "?" || "!").select{|e|
-      e.size > 0}
+    puts self.split("." || "?" || "!")
     self.split("." || "?" || "!").select{|e|
       e.size > 0}.size
-      
+
   end
 end
 

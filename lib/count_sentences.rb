@@ -17,5 +17,9 @@ class String
   def count_sentences
     self.split("." || "?" || "!").select{|e|
       e.size > 0}.size
+      puts self.split("." || "?" || "!").select{|e|
+        e.size > 0}
   end
 end
+
+"This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences

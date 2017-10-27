@@ -19,4 +19,3 @@ class String
       e.size > 0}.size
   end
 end
-
